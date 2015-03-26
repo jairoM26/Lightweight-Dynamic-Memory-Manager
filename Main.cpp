@@ -5,12 +5,17 @@
  *      Author: david
  */
 #include "vHeap.h"
+#include "vint.h"
+#include "iostream"
+
+using namespace std;
 
 int main(){
 
-	vHeap *heap;
+    vInt vint = 2;
+    vInt vint2 = vint;
 
-	heap = vHeap::getInstace();
+    cout << vint2.getVData()<<endl;
 
 	return 0;
 };

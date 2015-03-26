@@ -12,7 +12,9 @@ SOURCES += \
     Main.cpp \
     DataManager.cpp \
     crazythread.cpp \
-    DataInfo.cpp
+    DataInfo.cpp \
+    vobject.cpp \
+    vint.cpp
 
 OTHER_FILES += \
     LightWeight-Dynamic-Memory-Manager.pro.user
@@ -25,5 +27,7 @@ HEADERS += \
     lista_enlazada.h \
     DataManager.h \
     DataInfo.h \
-    crazythread.h
+    crazythread.h \
+    vobject.h \
+    vint.h
 
